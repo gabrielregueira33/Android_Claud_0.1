@@ -1,4 +1,5 @@
 build/
 *.keystore
+*.idsig
 .gradle/
 local.properties
