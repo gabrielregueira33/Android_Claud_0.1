@@ -32,7 +32,7 @@ echo "==> aapt2 link (generate R.java + base APK)"
     --manifest "$ROOT/AndroidManifest.xml" \
     --java "$BUILD/gen" \
     --min-sdk-version 21 \
-    --target-sdk-version 23 \
+    --target-sdk-version 34 \
     -A "$ROOT/assets" \
     -R "$BUILD/compiled-res.zip" \
     --auto-add-overlay
